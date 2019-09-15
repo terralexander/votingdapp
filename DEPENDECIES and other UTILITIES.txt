@@ -13,8 +13,23 @@ git add -A
 git commit -m "Initial commit"
 // adds current files into local repository
 
+git remote add origin https://RemoteName/Proj.git
+//  only for initial commit
+
 git push origin master
 // adds current files into online repository
 
 truffle unbox pet-shop
+//initial setup for truffle
 
+truffle console
+// interact with the contract once it`s deployed
+
+Election.deployed().then(function(instance) { app = instance })
+//in truffle, store the app into a variable, using promisses
+
+app.address
+//in truffle, view the hex hash address for the app
+
+app.candidate
+//in truffle, view the canidates that have been stored into Election.sol in the constructor
