@@ -1,0 +1,20 @@
+npm install -g truffle
+
+https://www.trufflesuite.com/ganache
+
+https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+
+git init
+// creates local repository for current project
+
+git add -A
+// prepares current files (new and/or moddified) to be commited into local repository
+
+git commit -m "Initial commit"
+// adds current files into local repository
+
+git push origin master
+// adds current files into online repository
+
+truffle unbox pet-shop
+
